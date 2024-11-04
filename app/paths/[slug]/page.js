@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function LearningPathPage() {
   return (
     <div className="max-w-6xl mx-auto p-8">
@@ -5,7 +7,7 @@ export default function LearningPathPage() {
         {/* Main Content */}
         <div className="flex-grow">
           <div className="flex items-center gap-2 text-sm text-gray-600 mb-4">
-            <a href="/">← Back</a>
+            <Link href="/paths">← Learning Path</Link>
           </div>
 
           <h1 className="text-2xl font-bold mb-6">Get started with Auth</h1>
@@ -33,8 +35,8 @@ export default function LearningPathPage() {
               <h2 className="font-semibold mb-2">Description:</h2>
               <p className="text-gray-600">
                 This Get started with Auth learning path is designed for developers who are new to authentication. 
-                Whether you're ready to start implementing auth in production or just interested in learning, 
-                we'll guide you through the process of setting up authentication and arm you with the basic tools 
+                Whether you&apos;re ready to start implementing auth in production or just interested in learning, 
+                we&apos;ll guide you through the process of setting up authentication and arm you with the basic tools 
                 that every developer needs to start building right away.
               </p>
             </section>
@@ -43,7 +45,7 @@ export default function LearningPathPage() {
               <h2 className="font-semibold mb-2">Learning Experience:</h2>
               <p className="text-gray-600">
                 This learning path offers just enough information to get you started and points you to more details 
-                when you're ready to dive deeper. Each course in the learning path is roughly 10 mins with a short 
+                when you&apos;re ready to dive deeper. Each course in the learning path is roughly 10 mins with a short 
                 video tutorial, a written lab guide with linked resources, and occasionally, a short quiz to check 
                 your understanding.
               </p>
@@ -52,8 +54,8 @@ export default function LearningPathPage() {
             <section>
               <h2 className="font-semibold mb-2">Platform:</h2>
               <p className="text-gray-600">
-                We'll focus our examples and labs on modern authentication patterns, but these foundational skills 
-                can be applied to any platform or framework. We'll point you to differences and share documentation 
+                We&apos;ll focus our examples and labs on modern authentication patterns, but these foundational skills 
+                can be applied to any platform or framework. We&apos;ll point you to differences and share documentation 
                 for other platforms where applicable.
               </p>
             </section>
@@ -61,7 +63,7 @@ export default function LearningPathPage() {
             <section>
               <h2 className="font-semibold mb-2">Pre-Requisites:</h2>
               <p className="text-gray-600">
-                We'll assume you have a background in development and basic computer science.
+                We&apos;ll assume you have a background in development and basic computer science.
               </p>
             </section>
 
